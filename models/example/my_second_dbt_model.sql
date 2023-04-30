@@ -4,3 +4,5 @@
 select *
 from {{ ref('my_first_dbt_model') }}
 where id = 1
+
+-- testing if we can commit only one model

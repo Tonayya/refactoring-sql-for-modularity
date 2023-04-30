@@ -25,3 +25,5 @@ from source_data
 */
 
 -- where id is not null
+
+-- testing if we can commit only one model
