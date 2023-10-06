@@ -5,3 +5,5 @@ select
     status
 
 from tania_test.default.jaffle_shop_orders
+
+-- watermelon
