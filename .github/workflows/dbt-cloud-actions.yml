@@ -22,7 +22,7 @@ jobs:
           interval: 5
           failure_on_error: false
           cause: "github_actions_pull_request"
-          git_branch: sandpit # sandpit branch.
+          git_branch: main # production branch.
           schema_override: "dbt_cloud_pr_${{ secrets.DBT_CLOUD_JOB_ID }}_${{ github.event.number }}"
           steps_override: |
             dbt run-operation drop_pr_schema
