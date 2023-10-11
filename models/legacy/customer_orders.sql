@@ -53,4 +53,3 @@ select
     ORDER BY order_id
 
 
-    -- potatoes 
