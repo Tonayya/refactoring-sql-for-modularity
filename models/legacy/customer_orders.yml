@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: customer_orders
+    description: Whatever bananas
+
+    columns:
+      - name: customer_id
+        description: '{{ doc("customer_id") }}'
+
+  - name: stg_orders
+    description: Whatever bananas
+
+    columns:
+      - name: customer_id
+        description: '{{ doc("order_date") }}'
