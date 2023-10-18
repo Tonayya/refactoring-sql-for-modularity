@@ -17,7 +17,7 @@ Alternative heading 2
 > you can also nest blockquotes
 >> like this
 
-deonte a code with `this`
+denote a code with `this`
 
     indent code blocks with 4 spaces
     oh that's so cool
@@ -32,4 +32,6 @@ it says the best search engine lol
 Quickly turning URLs and email addresses to links using this <abcd.edfg@gmail.com>
 
 ![image](https://mdg.imgix.net/assets/images/san-juan-mountains.jpg?auto=format&fit=clip&q=40&w=1080)
+
+
 
