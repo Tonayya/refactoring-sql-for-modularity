@@ -45,5 +45,3 @@ SELECT
         ORDER BY p.order_id
     ) x ON x.order_id = p.order_id
     ORDER BY order_id
-
-    -- banana
