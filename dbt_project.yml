@@ -24,9 +24,9 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
 
-seeds:
-  +database: tania_test
-  +schema: IM
+# seeds:
+#   +database: tania_test
+#   +schema: IM
 
 models:
   +databricks_compute: "Compute1" 
