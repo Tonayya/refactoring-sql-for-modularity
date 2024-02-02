@@ -4,4 +4,5 @@ select
     order_date,
     status
 
+
 from tania_test.default.jaffle_shop_orders
