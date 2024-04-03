@@ -5,19 +5,19 @@ WITH
 
 base_customers AS (
 
-    SELECT *FROM {{ source('jaffle_shop', 'customers') }}
+    SELECT *FROM {{ ref('raw_customers') }}
 
 ),
 
 orders AS (
 
-    SELECT *FROM {{ source('jaffle_shop', 'orders') }}
+    SELECT *FROM {{ ref('raw_orders') }}
 
 ),
 
 payments AS (
 
-    SELECT *FROM {{ source('stripe', 'payment') }}
+    SELECT *FROM {{ ref('raw_payments') }}
 
 ),
 
